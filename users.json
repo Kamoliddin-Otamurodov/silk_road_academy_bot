@@ -1,0 +1,24 @@
+{
+    "users": {
+        "6271518072": {
+            "first_name": "kolik2125",
+            "last_name": null,
+            "username": "kolik2125"
+        },
+        "358434019": {
+            "first_name": "\u24bb\u24b6\u24c7\u24c7\u24ca\u24cd",
+            "last_name": null,
+            "username": "Warden707"
+        }
+    },
+    "contacts": {
+        "6271518072": {
+            "first_name": "kolik2125",
+            "phone_number": "+998889123351"
+        },
+        "358434019": {
+            "first_name": "\u24bb\u24b6\u24c7\u24c7\u24ca\u24cd",
+            "phone_number": "998933376979"
+        }
+    }
+}

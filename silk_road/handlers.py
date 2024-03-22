@@ -1,8 +1,8 @@
 from telegram import Update , Contact , KeyboardButton
 from telegram.ext import CallbackContext
-from .messages import WELCOME_MESSAGE , COURSE_MESSAGE , ENGLISH_MESSAGE , KOREAN_MESSAGE , JAPANESE_MESSAGE , ENGLISH_INFO_MESSAGE , KOREAN_INFO_MESSAGE , JAPANESE_INFO_MESSAGE
-from .keyboards import WELCOME_KEYBOARD , COURSE_KEYBOARD , ENGLISH_KEYBOARD , KOREAN_KEYBOARD , JAPANESE_KEYBOARD , ReplyKeyboardMarkup , CLEAR_USERS_KEYBOARD
-from .db import UserDB
+from messages import WELCOME_MESSAGE , COURSE_MESSAGE , ENGLISH_MESSAGE , KOREAN_MESSAGE , JAPANESE_MESSAGE , ENGLISH_INFO_MESSAGE , KOREAN_INFO_MESSAGE , JAPANESE_INFO_MESSAGE
+from keyboards import WELCOME_KEYBOARD , COURSE_KEYBOARD , ENGLISH_KEYBOARD , KOREAN_KEYBOARD , JAPANESE_KEYBOARD , ReplyKeyboardMarkup , CLEAR_USERS_KEYBOARD
+from db import UserDB
 userdb = UserDB('users.json')
 
 # create a function to handle the /start command

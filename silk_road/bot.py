@@ -9,7 +9,7 @@ from telegram.ext import (
     Filters,
 )
 
-from .handlers import start  ,users, clear_users , get_contact  , handle_contact,  course , english , japanese , korean , english_info , english_write , japanase_write , japanese_info , korean_write , korean_info
+from handlers import start  ,users, clear_users , get_contact  , handle_contact,  course , english , japanese , korean , english_info , english_write , japanase_write , japanese_info , korean_write , korean_info
 
 # getting the token from .env file
 load_dotenv()
